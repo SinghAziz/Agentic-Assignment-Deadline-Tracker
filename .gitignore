@@ -1,0 +1,54 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDEs / editors
+.vscode/
+.idea/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Temporary files
+tempCodeRunnerFile.py
+*.tmp
+*.temp
+
+# Foundry Local / model cache
+# Add these only if they are stored inside your project:
+.foundry/
+foundry/
+models/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS/editor swap files
+*.swp
+*.swo
+*~
