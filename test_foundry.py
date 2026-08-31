@@ -128,7 +128,9 @@ def run_agent(user_input):
 
                         function = AVAILABLE_FUNCTIONS[tool_name]
                         result = function(**arguments)
-
+                        print("DEBUG TOOL:", tool_name)
+                        print("DEBUG ARGUMENTS:", arguments)
+                        print("DEBUG RESULT:", result)
                         messages.append({
                                 "role" : "tool",
                                 "tool_call_id" : tool_call.id,
